@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url("/public/images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  background: #f3fffe;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50rem;
+  height: 30rem;
+  box-shadow: 0.5px 0.5px 4px 4px rgb(0, 0, 0, 0.2);
+}
+
+.card-image {
+  background: url("/public/images/bg2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px 10px;
+  margin: 5px;
+  width: 20rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.error {
+  font-family: sans-serif;
+  color: red;
+  font-size: 12px;
+}
+
+.submit-btn {
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: transparent;
+  background: rgb(255, 90, 123);
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.info {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.react-logo {
+  width: 30%;
+}
+
+.db-logo {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: #fff;
+  font-size: 14px;
+}
+
+.text {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+.sended {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
