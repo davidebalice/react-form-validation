@@ -1,12 +1,13 @@
 {
-  "name": "01.cra",
+  "name": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "": "file:",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.2.2",
+    "01.cra": "file:",
     "bootstrap": "^5.2.3",
     "formik": "^2.2.9",
     "gsap": "^3.11.3",
